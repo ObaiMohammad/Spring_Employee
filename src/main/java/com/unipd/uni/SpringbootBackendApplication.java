@@ -1,13 +1,11 @@
 package com.unipd.uni;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UniApplication {
+public class SpringbootBackendApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UniApplication.class, args);
+        SpringApplication.run(SpringbootBackendApplication.class, args);
     }
-
 }
